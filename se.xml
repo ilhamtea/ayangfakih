@@ -1,0 +1,13 @@
+<servers>
+  <server 
+    name="Radio Komunikasi Indonesia" 
+    ca="0" 
+    continent_code="AS" 
+    country="Klik masuk" 
+    country_code="ID" 
+    ip="beve-studio.my.id" 
+    port="7777" 
+    region="ID" 
+    url="https://beve-studio.my.id" 
+    token="" />
+</servers>
