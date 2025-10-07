@@ -2,7 +2,7 @@ from pymumble_py3 import Mumble
 import xml.etree.ElementTree as ET
 import time
 
-MUMBLE_SERVER = 'https://beve-studio.my.id'     # Ganti dengan alamat server Mumble
+MUMBLE_SERVER = 'beve-studio.my.id'     # Ganti dengan alamat server Mumble
 MUMBLE_USER = 'BotMusik'                   # Nama bot
 MUMBLE_PASSWORD = 'password_mumble'        # Password server Mumble, jika ada
 
