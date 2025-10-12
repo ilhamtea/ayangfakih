@@ -11,3 +11,9 @@
     url="https://beve-studio.my.id" 
     token="" />
 </servers>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<emojis>
+  <emoji name="smile" url="https://raw.githubusercontent.com/username/emoji-gif-repo/main/assets/smile.gif" />
+  <emoji name="heart" url="https://raw.githubusercontent.com/username/emoji-gif-repo/main/assets/heart.gif" />
+</emojis>
