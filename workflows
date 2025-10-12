@@ -1,0 +1,35 @@
+name: Update index.json, SE.xml & README automatically
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "assets/*.gif"
+      - "generate_files.js"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Run generator script
+        run: |
+          npm init -y > /dev/null 2>&1 || true
+          node generate_files.js
+
+      - name: Commit and push generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.json SE.xml README.md
+          git diff --quiet && echo "No changes to commit" || git commit -m "auto: update index.json, SE.xml & README"
+      github-actionss
