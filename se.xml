@@ -1,19 +1,23 @@
-<servers>
-  <server 
-    name="Radio Komunikasi Indonesia" 
-    ca="0" 
-    continent_code="AS" 
-    country="Klik masuk" 
-    country_code="ID" 
-    ip="beve-studio.my.id" 
-    port="7777" 
-    region="ID" 
-    url="https://beve-studio.my.id" 
-    token="" />
-</servers>
-
 <?xml version="1.0" encoding="UTF-8"?>
-<emojis>
-  <emoji name="smile" url="https://raw.githubusercontent.com/username/emoji-gif-repo/main/assets/smile.gif" />
-  <emoji name="heart" url="https://raw.githubusercontent.com/username/emoji-gif-repo/main/assets/heart.gif" />
-</emojis>
+<data>
+
+  <servers>
+    <server
+      name="Radio Komunikasi Indonesia"
+      ca="0"
+      continent_code="AS"
+      country="Klik masuk"
+      country_code="ID"
+      ip="beve-studio.my.id"
+      port="7777"
+      region="ID"
+      url="https://beve-studio.my.id"
+      token="" />
+  </servers>
+
+  <emojis>
+    <emoji name="smile" url="https://raw.githubusercontent.com/ilhamtea/ayangfakih/main/assets/smile.gif" />
+    <emoji name="heart" url="https://raw.githubusercontent.com/ilhamtea/ayangfakih/main/assets/heart.gif" />
+  </emojis>
+
+</data>
