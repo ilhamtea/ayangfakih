@@ -1,0 +1,12 @@
+{
+  "emojis": [
+    {
+      "name": "smile",
+      "url": "https://raw.githubusercontent.com/username/emoji-gif-repo/main/assets/smile.gif"
+    },
+    {
+      "name": "heart",
+      "url": "https://raw.githubusercontent.com/username/emoji-gif-repo/main/assets/heart.gif"
+    }
+  ]
+}
