@@ -1,21 +1,8 @@
-import requests, os
-
-RAW_URL = "https://raw.githubusercontent.com/ilhamtea/ayangfakih/refs/heads/main/se.xml"
-
-def get_mediafire_link():
-    r = requests.get(RAW_URL, timeout=10)
-    r.raise_for_status()
-    return r.text.strip()
-
-def download_apk(mediafire_link, out_file="update.apk"):
-    # mediafire kadang redirect, jadi pakai allow_redirects=True
-    r = requests.get(mediafire_link, allow_redirects=True, stream=True)
-    with open(out_file, "wb") as f:
-        for chunk in r.iter_content(chunk_size=8192):
-            f.write(chunk)
-    print("Selesai download:", out_file)
-
-if __name__ == "__main__":
-    link = get_mediafire_link()
-    print("Link terbaru:", link)
-    download_apk(link)
+<?xml version="1.0" encoding="UTF-8"?>
+<servers>
+  <server
+    name="Radio Komunikasi Indonesia"
+    ip="beve-studio.my.id"
+    port="7777"
+    url="https://beve-studio.my.id" />
+</servers>
