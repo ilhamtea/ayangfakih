@@ -1,8 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <servers>
-  <server
-    name="Radio Komunikasi Indonesia"
-    ip="beve-studio.my.id"
-    port="7777"
-    url="https://beve-studio.my.id" />
-</servers>
+  <serv
