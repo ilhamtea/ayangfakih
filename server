@@ -3,6 +3,6 @@
   <server
     name="Radio Komunikasi Indonesia"
     ip="beve-studio.my.id"
-    port="7777"
+    port="3012"
     url="https://beve-studio.my.id" />
 </servers>
